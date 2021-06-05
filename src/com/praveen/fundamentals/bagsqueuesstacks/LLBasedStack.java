@@ -48,7 +48,7 @@ public class LLBasedStack<Item> implements Iterable<Item>{
     class StackIterator implements Iterator<Item> {
 
         Node current = first;
-        int iterSize = size;
+
         @Override
         public boolean hasNext() {
             return current != null;

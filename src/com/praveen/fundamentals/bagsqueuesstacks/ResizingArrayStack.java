@@ -67,4 +67,14 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
             throw new UnsupportedOperationException();
         }
     }
+
+    public static void main(String[] args) {
+        ResizingArrayStack<String> stack = new ResizingArrayStack<>();
+        stack.push("hello");
+        stack.push("world");
+        stack.push("praveen");
+        stack.push("here");
+        stack.push("Size 5");
+        System.out.println(stack.size());
+    }
 }
