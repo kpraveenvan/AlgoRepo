@@ -46,10 +46,12 @@ public class EvaluateExpressions {
             }
         }
         return valueStack.pop();
+
     }
 
     public static void main(String[] args) {
         System.out.println(evaluate("( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )"));
         System.out.println(evaluate("( ( 1 + sqrt ( 5.0 ) ) / 2.0 )"));
     }
+
 }
