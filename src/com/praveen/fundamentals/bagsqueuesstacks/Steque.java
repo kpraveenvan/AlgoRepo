@@ -9,6 +9,7 @@ public class Steque<Item> implements Iterable<Item> {
     //Push -> Insert at beginning
     //Pop -> delete at beginning
     //enqueue -> insert at end
+    //dequeue -> remove at beginning
     Node first;
     Node last;
     int size;
